@@ -4,6 +4,8 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 //appends a kitten to the end of the kittens array
 function destructivelyAppendKitten(kittens) {
   extracat =["Ralph"]
-  return [...kittens, extracat]
+
+  var new_kittens = kittens.concat(extracat)
+  return new_kittens
 }
 destructivelyAppendKitten(kittens)
