@@ -6,3 +6,4 @@ function destructivelyAppendKitten(kittens) {
   extracat =["Ralph"]
   return [...kittens, extracat]
 }
+destructivelyAppendKitten(kittens)
