@@ -23,11 +23,3 @@ function destructivelyRemoveFirstKitten(){
 function appendKitten(name2){
   return concat.kittens(name2)
 }
-  describe('appendKitten(name)', function() {
-    it('appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
-      window.kittens = ['Milo', 'Otis', 'Garfield'];
-      expect(appendKitten("Broom")).toEqual(["Milo", "Otis", "Garfield", "Broom"])
-
-      expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
-    })
-  })
