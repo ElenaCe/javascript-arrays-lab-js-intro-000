@@ -5,4 +5,3 @@ var name =["Ralph"]
 function destructivelyAppendKitten(name) {
   return kittens.push(name) //creates new array and adds the element to the end
 }
-
